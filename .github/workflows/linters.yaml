@@ -13,4 +13,4 @@ jobs:
         uses: aschbacd/gitlint-action@v1.1.0
         with:
           re-commit-message-subject: ^(\[[#]\-[0-9]+\] )[A-Z].*((?!\.).)$
-          re-pull-request-title: ^([A-Z].*((?!\.).)$
+          re-pull-request-title: ^[A-Z].*((?!\.).)$
